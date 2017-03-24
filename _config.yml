@@ -1,10 +1,10 @@
-baseurl: /starter
+baseurl: https://vzlajs.github.io
 permalink: pretty
 markdown: rdiscount
 prose:
   rooturl: '_posts'
-  siteurl: 'http://prose.github.io/starter/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  siteurl: 'https://vzlajs.github.io'
+  relativeLinks: 'https://vzlajs.github.io/links.jsonp'
   media: 'media'
   metadata:
     _posts:

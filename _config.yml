@@ -1,6 +1,6 @@
 baseurl: https://vzlajs.github.io
 permalink: pretty
-markdown: rdiscount
+markdown: kramdown
 prose:
   rooturl: '_posts'
   siteurl: 'https://vzlajs.github.io'

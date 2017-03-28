@@ -2,7 +2,10 @@
 layout: default
 section: blog
 ---
-
+<h1>{{ site.github.project_title }}</h1>
+<p>Here is the <code>{%raw%}{{ site.github | jsonify }}{%endraw%}</code> for this page.</p>
+{% capture commalinebreak %},
+	"{% endcapture %}{% highlight json %}{{ site.github | jsonify | replace:',"',commalinebreak }}{% endhighlight %}
 <div class='listing col6 pad4h margin3'>
   {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}

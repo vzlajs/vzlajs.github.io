@@ -1,9 +1,40 @@
-baseurl: https://vzlajs.github.io
 permalink: pretty
 markdown: kramdown
+author: ajsb85
+repository: vzlajs/vzlajs.github.io
+gems:
+  - jekyll-avatar
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+feed:
+  path: atom.xml
+twitter:
+  username: benbalter
+facebook:
+ app_id: 1234
+ publisher: 1234
+ admins: 1234
+social:
+  name: Ben Balter
+  links:
+    - https://twitter.com/BenBalter
+    - https://www.facebook.com/ben.balter
+    - https://www.linkedin.com/in/BenBalter
+    - https://plus.google.com/+BenBalter
+    - https://github.com/benbalter
+    - https://keybase.io/benbalter
+webmaster_verifications:
+  google: 1234
+  bing: 1234
+  alexa: 1234
+  yandex: 1234
 prose:
   rooturl: '_posts'
-  siteurl: 'https://vzlajs.github.io'
+  siteurl: 'http://127.0.0.1:4000'
   relativeLinks: 'https://vzlajs.github.io/links.jsonp'
   media: 'media'
   metadata:
